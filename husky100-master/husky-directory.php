@@ -17,15 +17,15 @@ register_deactivation_hook( __FILE__, 'delete_husky_directory_page');
 
 function create_husky_directory_page() {
 	$husky_directory_post = array( 
-		'post_title' => 'Husky 100',
-		'post_name' => 'husky_100',
+		'post_title' => 'Cintrafor People',
+		'post_name' => 'cintrafor_people',
 		'post_type' => 'page'
 	);
 	wp_insert_post($husky_directory_post);
 }
 
 function delete_husky_directory_page() {
-	$query = new WP_Query(array('name'=>'husky_100','post_type'=>'page'));
+	$query = new WP_Query(array('name'=>'cintrafor_people','post_type'=>'page'));
 	$query->the_post();
 	$page_ID = get_the_ID();
 	if ($page_ID) {
@@ -40,7 +40,7 @@ if ( ! post_type_exists( 'husky100' ) ):
 
 	function husky_post_type() {
 		$labels = array(
-			'name' => 'Husky 100',
+			'name' => 'Cintrafor People',
 			'singular_name' => 'Person',
 			'add_new' => 'Add New',
 			'add_new_item' => 'Add New Person',
@@ -48,11 +48,11 @@ if ( ! post_type_exists( 'husky100' ) ):
 			'new_item' => 'New Person',
 			'all_items' => 'All People',
 			'view_item' => 'View Person',
-			'search_item' => 'Search Husky 100',
+			'search_item' => 'Search Cintrafor',
 			'not_found' => 'No people found',
 			'not_found_in_trash' => 'No people found in trash',
 			'parent_item_colon' => '',
-			'menu_name' => 'Husky 100'
+			'menu_name' => 'Cintrafor People'
 		);
 
 		$args = array(
@@ -71,10 +71,10 @@ if ( ! post_type_exists( 'husky100' ) ):
 	add_action('admin_init', 'husky_admin_init');
 
 	function husky_admin_init(){
-		add_meta_box( 'hometown', 'Hometown', 'hometown_callback', 'husky100', 'side', 'low' );
-		add_meta_box( 'major', 'Major', 'major_callback', 'husky100', 'side', 'low' );
-		add_meta_box( 'minor', 'Minor', 'minor_callback', 'husky100', 'side', 'low' );
-		add_meta_box( 'linkedin', 'LinkedIn link', 'linkedin_callback', 'husky100', 'side', 'low' );
+		add_meta_box( 'hometown', 'Type', 'hometown_callback', 'husky100', 'side', 'low' );
+		add_meta_box( 'major', 'Research', 'major_callback', 'husky100', 'side', 'low' );
+		add_meta_box( 'minor', 'Teaching', 'minor_callback', 'husky100', 'side', 'low' );
+		add_meta_box( 'linkedin', 'LinkedIn/Email/Website link', 'linkedin_callback', 'husky100', 'side', 'low' );
 		
 		add_meta_box( 'tenet', 'Tenet', 'tenet_callback', 'husky100', 'normal', 'low' );
 		add_meta_box( 'quote', 'Quote', 'quote_callback', 'husky100', 'normal', 'low' );
@@ -211,281 +211,76 @@ if (!taxonomy_exists('filters')):
 	        'query_var'=>true
 			//'show_ui'	  	=> false
 		));
-		register_taxonomy_for_object_type('filters', 'husky100');
+		// register_taxonomy_for_object_type('filters', 'husky100');
 
-		//defualts
-		if(!get_term('Discipline', 'filters')){
-			wp_insert_term('Discipline', 'filters');
+		//cintrafor filters
+		if(!get_term('Type', 'filters')){
+			wp_insert_term('Type', 'filters');
 		}
-		if(!get_term('Campus', 'filters')){
-			wp_insert_term('Campus', 'filters');
+		if(!get_term('Topics', 'filters')){
+			wp_insert_term('Topics', 'filters');
 		}
-		if(!get_term('Class Standing', 'filters')){
-			wp_insert_term('Class Standing', 'filters', array('slug' => 'year'));
-		}
-		if(!get_term('Year Awarded', 'filters')){
-			wp_insert_term('Year Awarded', 'filters', array('slug' => 'year-awarded-the-husky-100'));
-		}
-		//Discipline
-		$parent_term = term_exists( 'Discipline', 'filters' ); // array is returned if taxonomy is given
+		//Type
+		$parent_term = term_exists( 'Type', 'filters' ); // array is returned if taxonomy is given
 		$parent_term_id = $parent_term['term_id']; // get numeric term id
-		if(!get_term('Arts & Sci: All divisions', 'filters')){
+		
+		if(!get_term('Faculty', 'filters')){
 			wp_insert_term(
-			  'Arts & Sci: All divisions', // the term 
+			  'Faculty', // the term 
 			  'filters', // the taxonomy
 			  array(
 			    'parent'=> $parent_term_id
 			  )
 			);
-		}	//Arts & Sci kids
-			$parent_term_arts = term_exists( 'Arts & Sci: All divisions', 'filters' ); // array is returned if taxonomy is given
-			$parent_term_id_arts = $parent_term_arts['term_id']; // get numeric term id
-			if(!get_term('Arts & Sci: Arts', 'filters')){
+		}	
+		
+			if(!get_term('Staff', 'filters')){
 				wp_insert_term(
-				  'Arts & Sci: Arts', // the term 
+				  'Staff', // the term 
 				  'filters', // the taxonomy
 				  array(
-				    'parent'=> $parent_term_id_arts
+				    'parent'=> $parent_term_id
 				  )
 				);
 			}
-			if(!get_term('Arts & Sci: Humanities', 'filters')){
+			if(!get_term('Students', 'filters')){
 				wp_insert_term(
-				  'Arts & Sci: Humanities', // the term 
+				  'Students', // the term 
 				  'filters', // the taxonomy
 				  array(
-				    'parent'=> $parent_term_id_arts
+				    'parent'=> $parent_term_id
 				  )
 				);
 			}
-			if(!get_term('Arts & Sci: Natural Sci', 'filters')){
+			if(!get_term('Alumni', 'filters')){
 				wp_insert_term(
-				  'Arts & Sci: Natural Sci', // the term 
+				  'Alumni', // the term 
 				  'filters', // the taxonomy
 				  array(
-				    'parent'=> $parent_term_id_arts
+				    'parent'=> $parent_term_id
 				  )
 				);
 			}
-			if(!get_term('Arts & Sci: Social Sci', 'filters')){
-				wp_insert_term(
-				  'Arts & Sci: Social Sci', // the term 
-				  'filters', // the taxonomy
-				  array(
-				    'parent'=> $parent_term_id_arts
-				  )
-				);
-			}
-
-		if(!get_term('Built Environments', 'filters')){
-			wp_insert_term(
-			  'Built Environments', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Business', 'filters')){
-			wp_insert_term(
-			  'Business', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Dentistry', 'filters')){
-			wp_insert_term(
-			  'Dentistry', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Education', 'filters')){
-			wp_insert_term(
-			  'Education', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Engineering', 'filters')){
-			wp_insert_term(
-			  'Engineering', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Environment', 'filters')){
-			wp_insert_term(
-			  'Environment', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Computer Sci / Info / Tech', 'filters')){
-			wp_insert_term(
-			  'Computer Sci / Info / Tech', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Law', 'filters')){
-			wp_insert_term(
-			  'Law', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Medicine', 'filters')){
-			wp_insert_term(
-			  'Medicine', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Healthcare and Nursing', 'filters')){
-			wp_insert_term(
-			  'Healthcare and Nursing', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Pharmacy', 'filters')){
-			wp_insert_term(
-			  'Pharmacy', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Public Policy and Governance', 'filters')){
-			wp_insert_term(
-			  'Public Policy and Governance', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Public Health', 'filters')){
-			wp_insert_term(
-			  'Public Health', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Social Work and Criminal Justice', 'filters')){
-			wp_insert_term(
-			  'Social Work and Criminal Justice', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
-		if(!get_term('Urban Studies', 'filters')){
-			wp_insert_term(
-			  'Urban Studies', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_id
-			  )
-			);
-		}
+	
 
 		//campus
-		$parent_term_campus = term_exists( 'Campus', 'filters' ); // array is returned if taxonomy is given
+		$parent_term_campus = term_exists( 'Topics', 'filters' ); // array is returned if taxonomy is given
 		$parent_term_campus_id = $parent_term_campus['term_id']; // get numeric term id
-		if(!get_term('Bothell', 'filters')){
+		if(!get_term('Raw Material', 'filters')){
 			wp_insert_term(
-			  'Bothell', // the term 
+			  'Raw Material', // the term 
 			  'filters', // the taxonomy
 			  array(
 			    'parent'=> $parent_term_campus_id
 			  )
 			);
 		}
-		if(!get_term('Seattle', 'filters')){
+		if(!get_term('Sustainability', 'filters')){
 			wp_insert_term(
-			  'Seattle', // the term 
+			  'Sustainability', // the term 
 			  'filters', // the taxonomy
 			  array(
 			    'parent'=> $parent_term_campus_id
-			  )
-			);
-		}
-		if(!get_term('Tacoma', 'filters')){
-			wp_insert_term(
-			  'Tacoma', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_campus_id
-			  )
-			);
-		}
-
-		//Year	
-		$parent_term_year = term_exists( 'Class Standing', 'filters' ); // array is returned if taxonomy is given
-		$parent_term_year_id = $parent_term_year['term_id']; // get numeric term id
-		if(!get_term('Grad', 'filters')){
-			wp_insert_term(
-			  'Grad', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_year_id
-			  )
-			);
-		}
-		if(!get_term('Undergrad', 'filters')){
-			wp_insert_term(
-			  'Undergrad', // the term 
-			  'filters', // the taxonomy
-			  array(
-			    'parent'=> $parent_term_year_id
-			  )
-			);
-		}
-
-		//Year awarded
-		$parent_term_year_awarded = term_exists( 'Year Awarded', 'filters' ); // array is returned if taxonomy is given
-		$parent_term_year_awarded_id = $parent_term_year_awarded['term_id']; // get numeric term id
-		if(!get_term('2016', 'filters')){
-			wp_insert_term(
-			  '2016', // the term 
-			  'filters', // the taxonomy
-			  array(
-			  	'slug' => '2016',
-			    'parent'=> $parent_term_year_awarded_id
-			  )
-			);
-		}
-		if(!get_term('2017', 'filters')){
-			wp_insert_term(
-			  '2017', // the term 
-			  'filters', // the taxonomy
-			  array(
-			  	'slug' => '2017',
-			    'parent'=> $parent_term_year_awarded_id
 			  )
 			);
 		}
@@ -517,27 +312,27 @@ if (!taxonomy_exists('filters')):
 	    }
 	}
 
-	function convert_husky100_id_to_taxonomy_term_in_query($query) {
-	    global $pagenow;
-	    $qv = &$query->query_vars;
-	    //print_r($qv);
-	    if ($pagenow=='edit.php' &&
-	            isset($qv['term']) && is_numeric($qv['term'])) {
-	        $term = get_term_by('id',$qv['term'],'filters');
-	    	print_r($term);
-	        $qv['term'] = $term;
-	    }
+	// function convert_husky100_id_to_taxonomy_term_in_query($query) {
+	//     global $pagenow;
+	//     $qv = &$query->query_vars;
+	//     //print_r($qv);
+	//     if ($pagenow=='edit.php' &&
+	//             isset($qv['term']) && is_numeric($qv['term'])) {
+	//         $term = get_term_by('id',$qv['term'],'filters');
+	//     	print_r($term);
+	//         $qv['term'] = $term;
+	//     }
 
-	    // global $pagenow;
-	    // $type = 'post';
-	    // if (isset($_GET['post_type'])) {
-	    //     $type = $_GET['post_type'];
-	    // }
-	    // if ( 'husky100' == $type && is_admin() && $pagenow=='edit.php' && isset($_GET['filters']) && $_GET['filters'] != '') {
-	    //     $query->query_vars['meta_key'] = 'filters';
-	    //     $query->query_vars['meta_value'] = get_term($_GET['filters'], 'filters');
-	    // }
-	}
+	//     // global $pagenow;
+	//     // $type = 'post';
+	//     // if (isset($_GET['post_type'])) {
+	//     //     $type = $_GET['post_type'];
+	//     // }
+	//     // if ( 'husky100' == $type && is_admin() && $pagenow=='edit.php' && isset($_GET['filters']) && $_GET['filters'] != '') {
+	//     //     $query->query_vars['meta_key'] = 'filters';
+	//     //     $query->query_vars['meta_value'] = get_term($_GET['filters'], 'filters');
+	//     // }
+	// }
 
 	function add_year_column_to_husky100_list( $posts_columns ) {
 	    if (!isset($posts_columns['date'])) {
