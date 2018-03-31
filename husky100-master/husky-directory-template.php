@@ -31,7 +31,7 @@
 
     </head>
     <body <?php body_class(); ?> id="husky100">
-    <a href="#main_content" class="screen-reader-shortcut">Skip to main content</a>
+    <!-- <a href="#main_content" class="screen-reader-shortcut">Skip to main content</a>
 
     <div role="banner">
       <div id="thin-strip">
@@ -47,13 +47,13 @@
               <li><a href="http://uw.edu/alumni" class="slash" title="Alumi">Alumni</a></li>
           </ul>
       </div>
-    </div>
+    </div> -->
  
 
-    <div class="module-hero-image" style="background-image:url('<?php echo wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>')">
+    <div class="module-hero-image" style="background-image:url('https://cintrafor.weebly.com/uploads/1/1/8/0/118098170/background-images/1927666055.jpg')">
       <div class="container">     
         <div class="row">
-          <h1><?php the_title(); ?></h1>
+          <h1>People</h1>
           <div class="udub-slant"><span></span></div>
           <?php 
               while ( have_posts() ) : the_post(); 
