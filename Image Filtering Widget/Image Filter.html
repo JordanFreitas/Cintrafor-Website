@@ -2,6 +2,45 @@
 <link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/ImageFiltering.css" rel="stylesheet">
 
+
+<div class="container">
+    <div class="row margin-vert-30">
+    <div class="col-md-12">
+
+    <!-- Filter Buttons -->
+    <div class="portfolio-filter-container margin-top-20">
+    <ul class="portfolio-filter">
+    <li class="portfolio-filter-label label label-primary">
+    filter by:
+    </li>
+    <li>
+    <a href="#" class="portfolio-selected btn btn-default" data-filter="*">All</a>
+    </li>
+    <!-- sorting for each of the filters -->
+    {{#filters_each}}
+    <li class="filtered-box-filter" rel="filter-{{filters_index}}">
+        <!-- data filter takes the filter name to sort by -->
+    <a href="#" class="btn btn-default" data-filter=''>
+        <!-- this is the title of the filter -->
+        {name_{{plans_index}}:text default="Name #{{plans_index}}"}
+        {name_{{filters_index}}:text default="Headline {{filters_index}}"}
+    </a>
+    </li>
+    {{/filters_each}}
+    </ul>
+    </div>
+    <!-- End Filter Buttons -->
+    </div>
+    </div>
+
+
+    <div class="row">
+    <div class="col-md-12 portfolio-group no-padding">
+        {content_{{filters}}:content}
+    </div>
+    </div>
+</div>
+
 <!-- === BEGIN CONTENT === -->
 <div class="container">
 <div class="row margin-vert-30">

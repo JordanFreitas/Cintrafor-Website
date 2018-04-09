@@ -1,0 +1,138 @@
+{
+  "manifest": "1",
+  "version": "1.0.0",
+  "locale": {
+    "default": "en-us",
+    "supported": [
+      "en-us"
+    ]
+  },
+  "elements": [
+    {
+      "name": "Filter Anything",
+      "path": "files-filter",
+      "version": "1.0.0",
+      "settings": {
+        "config": {},
+        "properties": [
+          {
+            "type": "group",
+            "name": "settings",
+            "label": "settings",
+            "properties": [
+              {
+                "name": "filters",
+                "label": "Number of Filters",
+                "type": "int",
+                "default": 2,
+                "min": "1",
+                "max": "10"
+              },
+              {
+                    "name": "name",
+                    "label": "Name of Filters",
+                    "type": "string",
+                    "default": ""
+              }
+            ]
+          }           
+        ]
+      },
+      "tutorial": {
+        "introduction": "The Tabs app saves space on your page by allowing content to be displayed in separate tabs within a single element.",
+        "type": "steps",
+        "content": [
+          "Decide upon the number of tabs to display. You can have up to ten tabs in a single element, each with its own content. ",
+          "Choose a style and colors for your tabs. There are four different themes to pick from, and you can select colors for the borders and tabs in each style.",
+          "Start adding content to your tabs. Click on a tab to enter a title for it, then drag elements into the content area. Each tab’s content area behaves like a page in Weebly, so you can add multiple elements and position them in the same way."
+        ],
+        "autopop": true
+      }
+    },
+    {
+      "name": "Filter Anything Item",
+      "path": "files-item",
+      "version": "1.0.0",
+      "settings": {
+        "config": {},
+        "properties": [
+          {
+            "type": "group",
+            "name": "settings",
+            "label": "settings",
+            "properties": [
+              {
+                "name": "name",
+                "label": "Name of Filter",
+                "type": "string",
+                "default": ""
+              },
+              {
+                "name": "style",
+                "label": "Style",
+                "type": "select",
+                "default": "small",
+                "values": [
+                  {
+                    "name": "Small",
+                    "value": "small"
+                  },
+                  {
+                    "name": "Large",
+                    "value": "large"
+                  }
+                ]
+              },
+              {
+                "name": "image_display",
+                "label": "Image Display",
+                "type": "select",
+                "default": "round",
+                "values": [
+                  {
+                    "name": "Circle",
+                    "value": "round"
+                  },
+                  {
+                    "name": "Filled",
+                    "value": "filled"
+                  }
+                ]
+              },
+              {
+                "name": "title",
+                "label": "Title",
+                "type": "toggle",
+                "default": true
+              },
+              {
+                "name": "about",
+                "label": "About",
+                "type": "toggle",
+                "default": true
+              },
+              {
+                "name": "button",
+                "label": "Button",
+                "type": "toggle",
+                "default": true
+              }
+              
+            ]
+          }
+        ]
+      },
+      "tutorial": {
+        "introduction": "The Tabs app saves space on your page by allowing content to be displayed in separate tabs within a single element.",
+        "type": "steps",
+        "content": [
+          "Decide upon the number of tabs to display. You can have up to ten tabs in a single element, each with its own content. ",
+          "Choose a style and colors for your tabs. There are four different themes to pick from, and you can select colors for the borders and tabs in each style.",
+          "Start adding content to your tabs. Click on a tab to enter a title for it, then drag elements into the content area. Each tab’s content area behaves like a page in Weebly, so you can add multiple elements and position them in the same way."
+        ],
+        "autopop": true
+      }
+    }
+  ]
+}
+    

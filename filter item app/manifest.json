@@ -1,0 +1,193 @@
+{
+    "manifest": "1",
+    "version": "1.0.0",
+    "locale": {
+      "default": "en-us",
+      "supported": [
+        "en-us"
+      ]
+    },
+    "elements": [
+      {
+        "name": "Filter Anything Item",
+        "path": "files",
+        "version": "1.0.0",
+        "settings": {
+          "config": {},
+          "properties": [
+            {
+              "type": "group",
+              "name": "settings",
+              "label": "settings",
+              "properties": [
+                {
+                  "name": "name",
+                  "label": "Name of Filter",
+                  "type": "string",
+                  "default": ""
+                },
+                {
+                  "name": "style",
+                  "label": "Style",
+                  "type": "select",
+                  "default": "small",
+                  "values": [
+                    {
+                      "name": "Small",
+                      "value": "small"
+                    },
+                    {
+                      "name": "Large",
+                      "value": "large"
+                    }
+                  ]
+                },
+                {
+                  "name": "image_display",
+                  "label": "Image Display",
+                  "type": "select",
+                  "default": "round",
+                  "values": [
+                    {
+                      "name": "Circle",
+                      "value": "round"
+                    },
+                    {
+                      "name": "Filled",
+                      "value": "filled"
+                    }
+                  ]
+                },
+                {
+                  "name": "title",
+                  "label": "Title",
+                  "type": "toggle",
+                  "default": true
+                },
+                {
+                  "name": "about",
+                  "label": "About",
+                  "type": "toggle",
+                  "default": true
+                },
+                {
+                  "name": "button",
+                  "label": "Button",
+                  "type": "toggle",
+                  "default": true
+                }
+                
+              ]
+            },
+            {
+              "name": "color-setting",
+              "label": "Color",
+              "type": "group",
+              "properties": [
+                {
+                  "name": "background",
+                  "label": "Background Color",
+                  "type": "color",
+                  "default": "#FAFAFA"
+                },
+                {
+                  "name": "border_color",
+                  "label": "Border Color",
+                  "type": "color",
+                  "default": "#E0E0E0"
+                }
+              ]
+            },
+            {
+              "name": "style-setting",
+              "label": "Style",
+              "type": "group",
+              "properties": [
+                {
+                  "name": "style",
+                  "label": "Style",
+                  "type": "select",
+                  "default": "standard",
+                  "values": [
+                    {
+                      "name": "Standard",
+                      "value": "standard"
+                    },
+                    {
+                      "name": "Material",
+                      "value": "material"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "border-setting",
+              "label": "Border",
+              "type": "group",
+              "properties": [
+                {
+                  "name": "border",
+                  "label": "Border",
+                  "type": "select",
+                  "default": "1px solid",
+                  "values": [
+                    {
+                      "name": "None",
+                      "value": "none"
+                    },
+                    {
+                      "name": "Solid",
+                      "value": "1px solid"
+                    },
+                    {
+                      "name": "Dotted",
+                      "value": "2px dotted"
+                    },
+                    {
+                      "name": "Thick",
+                      "value": "4px solid"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "spacing-setting",
+              "label": "Spacing",
+              "type": "group",
+              "properties": [
+                {
+                  "name": "vertical-padding",
+                  "label": "Vertical Padding",
+                  "type": "int",
+                  "default": 20,
+                  "step": 1,
+                  "min": 0
+                },
+                {
+                  "name": "horizontal-padding",
+                  "label": "Horizontal Padding",
+                  "type": "int",
+                  "default": 20,
+                  "step": 1,
+                  "min": 0
+                }
+              
+          ]
+        }
+      ]
+        },
+        "tutorial": {
+          "introduction": "The Tabs app saves space on your page by allowing content to be displayed in separate tabs within a single element.",
+          "type": "steps",
+          "content": [
+            "Decide upon the number of tabs to display. You can have up to ten tabs in a single element, each with its own content. ",
+            "Choose a style and colors for your tabs. There are four different themes to pick from, and you can select colors for the borders and tabs in each style.",
+            "Start adding content to your tabs. Click on a tab to enter a title for it, then drag elements into the content area. Each tab’s content area behaves like a page in Weebly, so you can add multiple elements and position them in the same way."
+          ],
+          "autopop": true
+        }
+      }
+    ]
+  }
