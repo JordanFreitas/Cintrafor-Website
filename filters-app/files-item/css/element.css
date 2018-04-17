@@ -8,20 +8,23 @@
 @colorPrimary: rgba(75, 81, 85, 1); // #4B5155
 @colorSecondary: rgba(75, 81, 85, 0.6); // #939799
 
+@user-vertical-padding: @vertical-padding * 1px;
+@user-horizontal-padding: @horizontal-padding * 1px;
+@user-height: @height*10px;
+
 @transition: 300ms ease-in-out;
+
 
 .team-card {
     &--small {
         @width: 204px;
-
         .card();
         .team();
         .hover();
         .overrides();
         .imageOverrides();
     }
-
-    &--large {
+    &--medium {
         @width: 280px;
 
         .card();
@@ -30,15 +33,25 @@
         .overrides();
         .imageOverrides();
     }
+    &--large {
+        @width: 304px;
+        .card();
+        .team();
+        .hover();
+        .overrides();
+        .imageOverrides();
+    }
+    
 }
 
 .card() {
     width: @width;
-    height: 100%;
+    max-height: @user-height;
+    overflow: hidden;
     box-sizing: border-box;
     border: 1px solid @colorBorder;
     border-radius: 2px;
-    margin: 20px auto;
+    margin: 20px 5px;
     box-shadow: none;
     transition: border @transition, box-shadow @transition;
     background: #FFFFFF;

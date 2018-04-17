@@ -3,7 +3,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-visible/1.2.0/jquery.visible.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-<div class="container">
     <div class="row margin-vert-30">
     <!-- Filter Buttons -->
     <div class="portfolio-filter-container margin-top-20">
@@ -32,4 +31,4 @@
     <div class="portfolio-group">
         {field_{{filters}}_content:content}
     </div>
-</div>
+    <div class="editorPrompt">Add all filtered items above this line</div>

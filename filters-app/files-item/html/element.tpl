@@ -1,8 +1,10 @@
 <div class="element-content portfolio-item {{name}}">
 <div class="team-card--{{style}}">
+        {{#image}}
     <div class="team-card__image--{{image_display}}">
         {pic:image}
     </div>
+	        {{/image}}
     <div class="team-card__content">
         <div class="name">{name:text default="Awesome Name"}</div>
         {{#title}}
@@ -16,8 +18,9 @@
         {{#button}}
             {button_text:button default="Learn More" align="center"}
         {{/button}}
-    </div>
+		{{#content}}
 	        {field_{{name}}_content:content}
-	
+        {{/content}}
+    </div>
 </div>
  </div>

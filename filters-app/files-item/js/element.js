@@ -7,6 +7,19 @@
         initialize: function() {
             this.fixStyles();
             this.updateImage();
+            // console.log(this);
+            // console.log(this.el);            
+            // console.log(this.el.parentNode.parentNode.parentNode);
+            // console.log(this.el.parentElement.parentNode);                                    
+            // console.log(this.$el.parentNode);
+            // console.log(this.$el.parentElement);                        
+            // console.log(this.parentElement);            
+            // console.log(this.parentNode);                        
+            // console.log("add item");                        
+                        
+            // this.el.parentNode.parentNode.parentNode.classList.add("portfolio-item");
+            // this.el.parentNode.parentNode.parentNode.classList.add(this.settings.get('name'));
+            
             this.$('.wsite-image img').bind("load", this.updateImage.bind(this));
         },
 

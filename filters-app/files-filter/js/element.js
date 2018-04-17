@@ -52,7 +52,7 @@
             filter: $(this).attr('data-filter')
          });
          return false;
-     }
+        }
     });
     return FilteredBox;
 })();

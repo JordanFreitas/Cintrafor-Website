@@ -78,10 +78,23 @@
                     "value": "small"
                   },
                   {
+                    "name": "Medium",
+                    "value": "medium"
+                  },
+                  {
                     "name": "Large",
                     "value": "large"
                   }
                 ]
+              },
+              {
+                "name": "height",
+                "label": "Height",
+                "type": "int",
+                "default": 50,
+                "step":5,
+                "min":5,
+                "max":80
               },
               {
                 "name": "image_display",
@@ -100,6 +113,12 @@
                 ]
               },
               {
+                "name": "image",
+                "label": "Image",
+                "type": "toggle",
+                "default": true
+              },
+              {
                 "name": "title",
                 "label": "Title",
                 "type": "toggle",
@@ -114,6 +133,12 @@
               {
                 "name": "button",
                 "label": "Button",
+                "type": "toggle",
+                "default": true
+              },
+              {
+                "name": "content",
+                "label": "Other Content",
                 "type": "toggle",
                 "default": true
               }

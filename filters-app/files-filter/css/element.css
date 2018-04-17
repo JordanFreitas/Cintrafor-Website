@@ -45,11 +45,42 @@
     border-radius: 0px;
   }
   .btn-default {
-    background-color: rgba(0, 0, 0, 0.043);
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 0px;
+    background: transparent;
+    box-sizing: border-box;
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05) inset;
     margin: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default{
+    color: #333333;
+    background-color: #ebebeb;
+    border-color: #adadad;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  .btn-default:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+
   }
   
   /* Image Filtering Portfolio */
@@ -131,30 +162,11 @@
     display: block;
     padding: 30px;
   }
-  /* .no-touch .portfolio-item figure:hover img,
-  .portfolio-item figure.cs-hover img {
-    bottom: 0px;
-    -webkit-transform: scale(1.2) translateY(-7.5%);
-    -moz-transform: scale(1.2) translateY(-7.5%);
-    -ms-transform: scale(1.2) translateY(-7.5%);
-    transform: scale(1.2) translateY(-7.5%);
-  }
-  .portfolio-item figcaption {
-    height: 100%;
-    width: 100%;
-    opacity: 0.7;
-    -webkit-transition: opacity 0.5s 0.2s;
-    -moz-transition: opacity 0.5s 0.2s;
-    transition: opacity 0.5s 0.2s;
-  }
-  .no-touch .portfolio-item figure:hover figcaption,
-  .portfolio-item figure.cs-hover figcaption {
-    opacity: 1;
-    -webkit-transition: opacity 0.5s;
-    -moz-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-  } */
-  
+ 
+
+  .editorPrompt{
+    display: none;
+}
   /*  Media Query */
   @media only screen and (max-width: 767px) {
   
