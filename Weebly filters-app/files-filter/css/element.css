@@ -1,0 +1,131 @@
+/* Container & Margins */
+.container {
+    max-width: 1080px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+  }
+  
+  .margin-vert-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .no-padding {
+    padding: 0 !important;
+  }
+  
+  .margin-top-20 {
+    margin-top: 20px;
+  }
+  
+  .margin-bottom-40 {
+    margin-bottom: 40px;
+  }
+  
+  /* Link Effects */
+  a {
+    text-decoration: none;
+    color: #bc5e43;
+    -webkit-transition: color 0.15s ease-in;
+    -moz-transition: color 0.15s ease-in;
+    -o-transition: color 0.15s ease-in;
+    transition: color 0.15s ease-in;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:focus,
+  li:focus {
+    outline: 0;
+  }
+  
+  /* Button */
+  .btn {
+    border-radius: 0px;
+  }
+  .btn-default {
+    background: transparent;
+    box-sizing: border-box;
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05) inset;
+    margin: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default{
+    color: #333333;
+    background-color: #ebebeb;
+    border-color: #adadad;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  .btn-default:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+
+  }
+  
+  /* Image Filtering Portfolio */
+  
+  .portfolio-group {
+    text-align: center;
+    padding: 0;
+    width: 100% !important;
+  }
+  ul.portfolio li a,
+  ul.grid li:first-child a {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .portfolio-filter {
+    margin: 0;
+    padding: 0px;
+  }
+  .portfolio-filter li {
+    list-style: none;
+    display: inline-block;
+  }
+  .portfolio-filter-label {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 11px 12px;
+  }
+  .portfolio figcaption span {
+    color: #cccccc;
+    line-height: 2em;
+    display: block;
+    padding: 30px;
+  }
+ 
+
+  .editorPrompt{
+    display: none;
+}
+  /*  Media Query */
+  @media only screen and (max-width: 767px) {
+  
+  .portfolio-group .portfolio-item{
+      width:100%;
+  }
+  }
+  /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+

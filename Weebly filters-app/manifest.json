@@ -1,0 +1,144 @@
+{
+  "manifest": "1",
+  "version": "1.0.0",
+  "locale": {
+    "default": "en-us",
+    "supported": [
+      "en-us"
+    ]
+  },
+  "elements": [
+    {
+      "name": "Filter Anything",
+      "path": "files-filter",
+      "version": "1.0.0",
+      "settings": {
+        "config": {},
+        "properties": [
+          {
+            "type": "group",
+            "name": "settings",
+            "label": "settings",
+            "properties": [
+              {
+                "name": "filters",
+                "label": "Number of Filters",
+                "type": "int",
+                "default": 2,
+                "min": "1",
+                "max": "20"
+              },
+              {
+                    "name": "name",
+                    "label": "Name of Filters 'Food, Cars, Type'",
+                    "type": "string",
+                    "default": ""
+              }
+            ]
+          }           
+        ]
+      },
+      "tutorial": {
+        "introduction": "Filter Anything can be used for blog post links, galleries, files etc.",
+        "type": "steps",
+        "content": [
+          "Decide how many filters this object will need",
+          "Seperate Filter Names by comma - i.e. 'Food, Cars, Travel'"
+        ],
+        "autopop": true
+      }
+    },
+    {
+      "name": "Filter Anything Item",
+      "path": "files-item",
+      "version": "1.0.0",
+      "settings": {
+        "config": {},
+        "properties": [
+          {
+            "type": "group",
+            "name": "settings",
+            "label": "settings",
+            "properties": [
+              {
+                "name": "name",
+                "label": "Filters i.e. 'Cars, Food'",
+                "type": "string",
+                "default": ""
+              },
+              {
+                "name": "style",
+                "label": "Style",
+                "type": "select",
+                "default": "small",
+                "values": [
+                  {
+                    "name": "Small",
+                    "value": "small"
+                  },
+                  {
+                    "name": "Medium",
+                    "value": "medium"
+                  },
+                  {
+                    "name": "Large",
+                    "value": "large"
+                  }
+                ]
+              },
+              {
+                "name": "height",
+                "label": "Height",
+                "type": "int",
+                "default": 50,
+                "step":5,
+                "min":5,
+                "max":80
+              },
+              {
+                "name": "image_display",
+                "label": "Image Display",
+                "type": "select",
+                "default": "round",
+                "values": [
+                  {
+                    "name": "Circle",
+                    "value": "round"
+                  },
+                  {
+                    "name": "Filled",
+                    "value": "filled"
+                  }
+                ]
+              },
+              {
+                "name": "image",
+                "label": "Image",
+                "type": "toggle",
+                "default": true
+              },
+              {
+                "name": "content",
+                "label": "Other Content",
+                "type": "toggle",
+                "default": true
+              }
+              
+            ]
+          }
+        ]
+      },
+      "tutorial": {
+        "introduction": "This item is to be used as a filtered object with the Filter Anything Plugin",
+        "type": "steps",
+        "content": [
+          "In settings, under 'Filters' add each filter name that you would like to sort this item under.  For example an item filtered under cars and travel: 'cars, travel'",
+          "You can add whatever additional content you would like in the 'other content' section - more iamges, links, buttons, text etc.!",
+          "Style cooresponds to the size of the filtered item, Image is set by default but in settings you can remove the image and area for additional content"          
+        ],
+        "autopop": true
+      }
+    }
+  ]
+}
+    

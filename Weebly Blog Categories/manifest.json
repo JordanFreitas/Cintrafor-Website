@@ -1,0 +1,71 @@
+{
+  "manifest": "1",
+  "version": "1.0.0",
+  "locale": {
+    "default": "en-us",
+    "supported": [
+      "en-us"
+    ]
+  },
+  "elements": [
+    {
+      "name": "Blog Category Link",
+      "path": "category-link",
+      "version": "1.0.0",
+      "settings": {
+        "config": {},
+        "properties": [
+          {
+            "type": "group",
+            "name": "settings",
+            "label": "settings",
+            "properties": [
+              {
+                "name": "category",
+                "label": "Category inside Blog",
+                "type": "string",
+                "default": ""
+              },
+              {
+                "name": "blog",
+                "label": "Blog Name",
+                "type": "string",
+                "default": ""
+              },
+              {
+                "name": "newTab",
+                "label": "Open in New Tab?",
+                "type": "toggle",
+                "default": true
+              },
+              {
+                "name": "button",
+                "label": "Button",
+                "type": "toggle",
+                "default": true
+              },
+              {
+                "name": "content",
+                "label": "Link Other Content",
+                "type": "toggle",
+                "default": false
+              }
+              
+            ]
+          }
+        ]
+      },
+      "tutorial": {
+        "introduction": "Links to a specific blog category directly",
+        "type": "steps",
+        "content": [
+          "Enter one category you want linked to exactly how it shows up on the blog page",
+          "Enter the exact title of the blog page that the category belongs to",
+          "Check to make sure the number of results matches the expected result blog posts"          
+        ],
+        "autopop": true
+      }
+    }
+  ]
+}
+    
