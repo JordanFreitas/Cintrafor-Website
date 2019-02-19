@@ -1,0 +1,806 @@
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+           <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>           
+        </ol>
+        <div class="carousel-inner">
+           <div class="carousel-item active">
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/496373638883319809/2Bu-Gvce_400x400.png" alt="First slide">
+                    <h3 class= "title">American Forest and Paper Association</h3>
+                    <div class="middle">
+                       <div class="text">American Forest & Paper Association: The national trade association for pulp, paper, packaging, wood and tissue products manufacturers, and forest landowners.</div>
+                       <a href="https://www.afandpa.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/836507033553747968/IKjrxOCA_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >American Hardwood</h3>
+                    <div class="middle">
+                       <div class="text">American Hardwood Export Council brings you news and views on wood in architecture and design because we are passionate about timber.</div>
+                       <a href="https://www.ahec.org" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="http://depts.washington.edu/cintweb/wordpress/wp-content/uploads/2018/07/California-Redwood-Association.jpg" alt="First slide">
+                    <h3 class= "title" >CRA - California Redwood</h3>
+                    <div class="middle">
+                       <div class="text">Abundant, renewable and energy-efficient, redwood is clearly the environmental choice.
+                          But it’s a beautiful choice for so many reasons. 
+                       </div>
+                       <a href="http://www.calredwood.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/537625264277028864/14jJPXpX_400x400.png" alt="First slide">
+                    <h3 class= "title" >Canada Wood</h3>
+                    <div class="middle">
+                       <div class="text">The Canada Wood Group helps Canadian wood products manufacturers diversify and expand export opportunities for their products in traditional and emerging overseas markets, including Europe, Japan, China, South Korea and India.</div>
+                       <a href="http://canadawood.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="http://depts.washington.edu/cintweb/wordpress/wp-content/uploads/2018/07/CWC-e1531324662199.jpg" alt="First slide">
+                    <h3 class= "title" >Canadian Wood Council</h3>
+                    <div class="middle">
+                       <div class="text">Ensuring Canadians have the right facts about wood mid-rise construction Safe I Sustainable I Sophisticated. </div>
+                       <a href="http://cwc.ca/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/847163092563705856/Cg9TydpW_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Evergreen Building Products Association</h3>
+                    <div class="middle">
+                       <div class="text">The Evergreen Building Products Association (EBPA) is a non-profit building products trade association that promotes US building materials and design services internationally and in the U.S.  </div>
+                       <a href="http://www.ep.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://media.licdn.com/dms/image/C4E0BAQFgI1h48sbD5g/company-logo_200_200/0?e=2128291200&v=beta&t=K8ZOTuI-2sxJdVX9TUfZ8SLXwymg6qMnjQEi4AvzQDk" alt="First slide">
+                    <h3 class= "title" >Forestry Innovation Investment</h3>
+                    <div class="middle">
+                       <div class="text">Established in 2003, Forestry Innovation Investment (FII) is the provincial agency charged with maintaining and expanding markets at home and abroad for B.C. forest products. </div>
+                       <a href="https://www.bcfii.ca/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/892746691232890882/bTceKbRQ_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >FPInnovations</h3>
+                    <div class="middle">
+                       <div class="text">FPInnovations is a not-for-profit world leader in discovering innovative solutions that support the Canadian forest sector. </div>
+                       <a href="https://fpinnovations.ca/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="carousel-item">
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/888058933272653824/M7W63gyk_400x400.jpg" alt="First slide">
+                    <h3 class= "title">Forest Products Society</h3>
+                    <div class="middle">
+                       <div class="text">An international not-for-profit technical association founded in 1947 to provide an information network for the forest products industry. </div>
+                       <a href="http://www.forestprod.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/801094278004912128/o8BbtdY9_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Moulding and Millwork Producers Association</h3>
+                    <div class="middle">
+                       <div class="text">Moulding & Millwork Producers Association. </div>
+                       <a href="http://www.wmmpa.com/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://yt3.ggpht.com/-cjY1mp9Eo3c/AAAAAAAAAAI/AAAAAAAAAAA/N0Nm6o9WFoQ/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg" alt="First slide">
+                    <h3 class= "title" >National Frame Building Association</h3>
+                    <div class="middle">
+                       <div class="text">Post-frame construction is an engineered wood-frame building system that meets UBC and IBC standards. Post-frame buildings feature large, solid sawn posts or laminated columns instead of wood studs, steel framing, or concrete masonry.  </div>
+                       <a href="http://www.nfba.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/414780787/NeLMA_logo_twitter2_400x400.JPG" alt="First slide">
+                    <h3 class= "title" >North Eastern Lumber Manufacturers</h3>
+                    <div class="middle">
+                       <div class="text">NELMA - lumber grading authority, export wood packaging certification leader, and marketing voice of the Northeast and Midwest U.S.</div>
+                       <a href="http://www.nelma.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/488790053204664321/VQMEet5y_400x400.jpeg" alt="First slide">
+                    <h3 class= "title" >North American Wholesale Lumber</h3>
+                    <div class="middle">
+                       <div class="text">NAWLA is a leading trade association serving the North American lumber supply chain since 1893 </div>
+                       <a href="http://www.nawla.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/482282626430926848/9bRtU-Tw_400x400.jpeg" alt="First slide">
+                    <h3 class= "title" >Pacific Lumber Export Association</h3>
+                    <div class="middle">
+                       <div class="text">Pacific Lumber Exporters Assoc. - PLEA members are exporting companies who sell lumber, timber and wood building materials to overseas international markets.</div>
+                       <a href="http://www.lumber-exporters.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://media.licdn.com/dms/image/C510BAQEjxK0_hQ4lHA/company-logo_200_200/0?e=2128291200&v=beta&t=QQolDySP1zp3Y-dwguTOm6jL-DHUjXJVd3-4P0KkULk" alt="First slide">
+                    <h3 class= "title" >Softwood Export Council</h3>
+                    <div class="middle">
+                       <div class="text">Softwood Export Council is a trade organization working to promote strategic export market development for American-made softwood products.</div>
+                       <a href="http://www.softwood.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/1828029170/SLB_logo_376_green__slb_only__400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Softwood Lumber Board</h3>
+                    <div class="middle">
+                       <div class="text">The SLB supports programs designed to grow the demand for structural and appearance lumber products</div>
+                       <a href="http://www.softwoodlumberboard.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="carousel-item">
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/2673586433/197e72d58b0799298f9461995822dfdb_400x400.png" alt="First slide">
+                    <h3 class= "title" >Southeastern Lumber Manufacturers Association
+                    </h3>
+                    <div class="middle">
+                       <div class="text">SLMA is a trade association that represents solid sawn lumber manufacturing operations, lumber remanufacturing operations, lumber treating operations, and their suppliers throughout the Southeastern United States.</div>
+                       <a href="http://www.slma.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/923627537334460417/Nac9tnVP_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Southern Forests Products Association</h3>
+                    <div class="middle">
+                       <div class="text">News from the Southern Forest Products Association...the leading source of Southern Pine lumber information for design/build professionals and consumers.</div>
+                       <a href="https://sfpa.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/509600346/RealCedar_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Western Red Cedar Lumber Association</h3>
+                    <div class="middle">
+                       <div class="text">Inspired ideas for building with Western Red Cedar – a sustainably harvested wood that is naturally beautiful, durable and insect-resistant.</div>
+                       <a href="http://www.realcedar.com/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/461873733347454976/BPPExQhy_400x400.jpeg" alt="First slide">
+                    <h3 class= "title" >American Wood Council</h3>
+                    <div class="middle">
+                       <div class="text">American Wood Council works to increase acceptance of wood as a responsible choice and develop international standards for wood design (NDS) and construction.</div>
+                       <a href="http://www.awc.org" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/464148564390576129/ANRBL-K2_400x400.png" alt="First slide">
+                    <h3 class= "title" >APA - The Engineered Wood Association </h3>
+                    <div class="middle">
+                       <div class="text">APA - The Engineered Wood Association is the leading resource for product support and design information for engineered wood products and building systems.</div>
+                       <a href="https://www.apawood.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://media.licdn.com/dms/image/C4D0BAQEn-pGcys1g4w/company-logo_200_200/0?e=2128291200&v=beta&t=U8TfIuCotypMLfjAD61fMOtH3HtIvYi1x9UnZNJp-MM" alt="First slide">
+                    <h3 class= "title" >Pacific Lumber Inspection Bureau</h3>
+                    <div class="middle">
+                       <div class="text">The Pacific Lumber Inspection Bureau (PLIB) is a private, non-profit lumber quality control inspection agency. </div>
+                       <a href="http://www.plib.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="http://www.wclib.org/wp-content/themes/wclib/images/icons/wclib-logo.png" alt="First slide">
+                    <h3 class= "title" >West Coast Lumber Inspection Bureau</h3>
+                    <div class="middle">
+                       <div class="text">The WCLIB is currently one of only six organizations in the United States accredited by the American Lumber Standard Committee (ALSC) to write and promulgate lumber grading rules, and provide grade inspection and supervision services. </div>
+                       <a href="http://www.wclib.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/596769618124886017/2ifrx4WC_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Western Wood Preservers Institute</h3>
+                    <div class="middle">
+                       <div class="text">Western Wood Preservers Institute (WWPI) is a nonprofit member trade organization representing the interest of the preserved wood products industry.</div>
+                       <a href="wwpinstitute.org" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="carousel-item">
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/2870740086/09e17596159165af58290c837ef40021_400x400.png" alt="First slide">
+                    <h3 class= "title" >Hardwood Biofuels</h3>
+                    <div class="middle">
+                       <div class="text">Advanced Hardwood Biofuels Northwest is a consortium led by the University of Washington to develop a new sustainable biofuel system based on hybrid poplars.</div>
+                       <a href="http://hardwoodbiofuels.org" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="http://www.theusipa.org/images/logoCircle.png" alt="First slide">
+                    <h3 class= "title" >US Industrial Pellet Association</h3>
+                    <div class="middle">
+                       <div class="text">The US Industrial Pellet Association supports industrial-grade wood pellets as an abundant, sustainable, and carbon beneficial source of renewable energy.</div>
+                       <a href="http://www.theusipa.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://biomass.ubc.ca/wp-content/uploads/2017/11/logo.png" alt="First slide">
+                    <h3 class= "title" >BBRG</h3>
+                    <div class="middle">
+                       <div class="text">UBC University of British Columbia Department of Chemical and Biological Engineering</div>
+                       <a href="https://biomass.ubc.ca/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/591344217030459392/9xnbn2Li_400x400.png" alt="First slide">
+                    <h3 class= "title" >Waste to Wisdom</h3>
+                    <div class="middle">
+                       <div class="text">Waste to Wisdom is a $5.88 million project working to better utilize forest residues for bioenergy and bio-based products.</div>
+                       <a href="http://wastetowisdom.com/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/2279413936/7w7yf9c9p4k7al5tmp7b_400x400.png" alt="First slide">
+                    <h3 class= "title" >Athena Institue</h3>
+                    <div class="middle">
+                       <div class="text">The Athena Sustainable Materials Institute is a non-profit research collaborative bringing life cycle assessment to the construction sector.</div>
+                       <a href="http://www.athenasmi.org" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/799336513293021184/zZbw01dW_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Carbon Leadership Forum</h3>
+                    <div class="middle">
+                       <div class="text">LEADING THE INDUSTRY TO ADVANCE LOW CARBON CONSTRUCTION KNOWLEDGE AND METHODS</div>
+                       <a href="http://www.carbonleadershipforum.org" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/798248530745790464/akhlp2Ut_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Carbon Washington</h3>
+                    <div class="middle">
+                       <div class="text">ACT NOW on Climate</div>
+                       <a href="http://carbonwa.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://www.fs.usda.gov/ccrc/sites/default/files/ccrc_beltbuckle_dg.png" alt="First slide">
+                    <h3 class= "title" >Climate Change Resource Center</h3>
+                    <div class="middle">
+                       <div class="text"></div>
+                       <a href="https://www.fs.usda.gov/ccrc/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="carousel-item">
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="http://depts.washington.edu/cintweb/wordpress/wp-content/uploads/2018/07/Corrim-e1531324645640.jpg" alt="First slide">
+                    <h3 class= "title" >CORRIM</h3>
+                    <div class="middle">
+                       <div class="text">CORRIM conducts and manages research on the
+                        Life Cycle Assessment (LCA) research on the environmental impacts
+                        of production, use, and disposal of forest products.</div>
+                       <a href="https://corrim.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                  <img class="d-block logoImg" src="http://depts.washington.edu/cintweb/wordpress/wp-content/uploads/2018/07/Wood-works-e1531324726613.jpg" alt="First slide">
+                  <h3 class= "title" >WoodWorks</h3>
+                  <div class="middle">
+                     <div class="text">WoodWorks provides free project support, education + resources related to the design of non-residential and multi-family wood buildings. </div>
+                     <a href="http://www.woodworks.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                  </div>
+               </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/514565687906275329/lBERMMYj_400x400.png" alt="First slide">
+                    <h3 class= "title" >Woods Institute</h3>
+                    <div class="middle">
+                       <div class="text">Stanford Woods Institute for the Environment: the hub for interdisciplinary environmental and sustainability research at Stanford University.</div>
+                       <a href="https://woods.stanford.edu/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/1309366972/button_400x400.png" alt="First slide">
+                    <h3 class= "title" >Forest Products Lab</h3>
+                    <div class="middle">
+                       <div class="text">The USDA Forest Service's Forest Products Laboratory conducts innovative research promoting healthy forests and vibrant economies through the wise use of wood.</div>
+                       <a href="https://www.fpl.fs.fed.us/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/746061213763674112/jCyKLl48_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >American Forest Resource Council</h3>
+                    <div class="middle">
+                       <div class="text">Working to promote sound sustainable management of our public lands in the west.</div>
+                       <a href="http://amforest.org" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/425695989345685505/x3p65nKG_400x400.jpeg" alt="First slide">
+                    <h3 class= "title" >Forest Landowners</h3>
+                    <div class="middle">
+                       <div class="text">Support landowners responsible management of private property thru advocacy,Education&Information& drive public policies that grow & protect US private forests</div>
+                       <a href="http://www.forestlandowners.com/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/963455781638057984/C2nZ86lX_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >FRA</h3>
+                    <div class="middle">
+                       <div class="text">Forest Resources Association is a national trade association that represents all segments of the wood fiber supply chain. </div>
+                       <a href="https://forestresources.org" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/732274591373000704/IY7FEfg4_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Forterra</h3>
+                    <div class="middle">
+                       <div class="text">Land for Good.</div>
+                       <a href="http://forterra.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="carousel-item">
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="http://depts.washington.edu/cintweb/wordpress/wp-content/uploads/2018/07/Idaho-PLT-e1531324689332.jpg" alt="First slide">
+                    <h3 class= "title" >Idaho PLT</h3>
+                    <div class="middle">
+                       <div class="text">Idaho PLT provides PD for teachers and others who work with youth. Award-winning materials, workshops for credit, terrific network of educators!</div>
+                       <a href="https://idahoforests.org" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/980846950315675653/IYuPHNg-_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >National Alliance of Forest Owners</h3>
+                    <div class="middle">
+                       <div class="text">The National Alliance of Forest Owners invests in the future of America's forests.</div>
+                       <a href="https://nafoalliance.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/816723517408497668/1ZDHor4i_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >State Foresters</h3>
+                    <div class="middle">
+                       <div class="text">National Association of State Foresters is composed of the directors of U.S. state & territorial #forestry agencies. #LoveForests? Follow for #tree news & tips!</div>
+                       <a href="http://stateforesters.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/774332128397963264/EEduF-K0_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Oregon Forest and Industrial Council</h3>
+                    <div class="middle">
+                       <div class="text">Conversations about Oregon forest sustainability, innovation, stewardship, and growth.</div>
+                       <a href="http://www.ofic.com/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/666684663071535106/tmiH7UGk_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >OFRI</h3>
+                    <div class="middle">
+                       <div class="text">The Oregon Forest Resources Institute seeks to advance public understanding of forests, forest management and forest products.</div>
+                       <a href="http://oregonforests.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                  <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/991423083654201344/qxoi7k3y_400x400.jpg" alt="First slide">
+                  <h3 class= "title" >Think Wood</h3>
+                  <div class="middle">
+                     <div class="text">Our goal is to educate architects and the building community about the benefits of building with wood, including performance, cost & sustainability.</div>
+                     <a href="https://www.thinkwood.com" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                  </div>
+               </div>
+               <div class="col-sm-3 logoItem">
+                  <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/2084376279/Wood_for_Good_logo_400x400.jpg" alt="First slide">
+                  <h3 class= "title" >Wood for Good</h3>
+                  <div class="middle">
+                     <div class="text">Wood for Good is the timber industry’s campaign to promote use of wood in design and construction.</div>
+                     <a href="https://www.thinkwood.com/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                  </div>
+               </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/755113457725218816/ICMvByXD_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Rural Development Initiative</h3>
+                    <div class="middle">
+                       <div class="text">RDI strengthens rural people, places, and economies in the Pacific Northwest. Tweets by Alison.</div>
+                       <a href="https://www.rdiinc.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="carousel-item">
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/936256309350895618/vFwtHsi3_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Society of American Foresters</h3>
+                    <div class="middle">
+                       <div class="text">SAF is the premier scientific & educational organization representing forestry & related natural resources professionals in the US.</div>
+                       <a href="https://www.eforester.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/580023678055817216/zG7NTORf_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >SFI Program</h3>
+                    <div class="middle">
+                       <div class="text">SFI stands for future forests & is one of the fastest-growing forest certification programs with over 280 million acres of SFI-certified forests in US & Canada.</div>
+                       <a href="http://www.sfiprogram.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/554811896914661376/5BrVCxXn_400x400.png" alt="First slide">
+                    <h3 class= "title" >Sustainable Northwest</h3>
+                    <div class="middle">
+                       <div class="text">Pioneers of natural resource solutions that work for people and nature.</div>
+                       <a href="http://www.sustainablenorthwest.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/730149186339897344/e2-EkBA0_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Washington State Dept. of Natural Resources</h3>
+                    <div class="middle">
+                       <div class="text">We provide leadership, expertise to ensure environmental protection, funding for schools, rich quality of life.</div>
+                       <a href="https://www.dnr.wa.gov" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="http://depts.washington.edu/cintweb/wordpress/wp-content/uploads/2018/07/WFPA-e1531324713181.jpg" alt="First slide">
+                    <h3 class= "title" >WA's Forest Protection Association</h3>
+                    <div class="middle">
+                       <div class="text">Staying connected to those who recognize the benefits of working forests. </div>
+                       <a href="http://www.wfpa.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/978112555196428289/mtyH-K4i_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Center for International Forestry Research</h3>
+                    <div class="middle">
+                       <div class="text">CIFOR envisions a more equitable world where forestry and landscapes enhance the environment and well-being for all. </div>
+                       <a href="http://www.cifor.org" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/378800000787851105/7f182ad70ee8b7d8fabe82a28ce30f45_400x400.jpeg" alt="First slide">
+                    <h3 class= "title" >International Union of Forest Research Organizations</h3>
+                    <div class="middle">
+                       <div class="text">IUFRO is the Global Network for Forest Science Cooperation. Retweets ≠ endorsements. </div>
+                       <a href="https://www.iufro.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/1227416181/Wide_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Landesa</h3>
+                    <div class="middle">
+                       <div class="text">Helping to ensure economically disempowered rural women and men have secure #landrights to improve their families' nutrition, security, education & livelihood.</div>
+                       <a href="http://www.landesa.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="carousel-item">
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/1783077189/LogoBackground_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Natural Capital Project</h3>
+                    <div class="middle">
+                       <div class="text">#NaturalCapital Project: bringing the values of nature into decision-making.Partnership of @Stanford @world_wildlife @nature_org UMN & Chinese Acad. of Sciences</div>
+                       <a href="https://www.naturalcapitalproject.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/453600188108533760/jUKVBB--_400x400.png" alt="First slide">
+                    <h3 class= "title" >World Resources Inst</h3>
+                    <div class="middle">
+                       <div class="text">Climate change, energy, food, forests, water, sustainable cities, governance, finance, business, economics. Tweet/Like ≠ endorsement.</div>
+                       <a href="http://www.wri.org" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/732718408903458816/tEU0UuQB_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Environmental Investigation Agency</h3>
+                    <div class="middle">
+                       <div class="text">Nonprofit using undercover investigations, scientific & economic primary evidence, and campaigning expertise to protect forests, wildlife, and the climate.</div>
+                       <a href="https://eia-global.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/804810798946193408/h0G89Mwc_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >FLI-Forest Legality</h3>
+                    <div class="middle">
+                       <div class="text">The Forest Legality Initiative works to reduce #illegallogging and support the supply of legal #forest products. </div>
+                       <a href="http://www.forestlegality.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/1046786813271166976/595dM6TF_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >CH Illegal Logging</h3>
+                    <div class="middle">
+                       <div class="text">Measuring the global response to illegal logging and related trade.</div>
+                       <a href="illegal-logging.info" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/671245076933140480/zGTLYaPb_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >EU Eurostat</h3>
+                    <div class="middle">
+                       <div class="text">Eurostat is the statistical office of the European Union. We provide high quality statistics for Europe.</div>
+                       <a href="http://ec.europa.eu/eurostat/data/database" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/1009025288624312321/g_OGhPMk_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >LukeFinland Research</h3>
+                    <div class="middle">
+                       <div class="text">Natural Resources Institute Finland (Luke) is a research and innovation partner in bioeconomy and sustainable use of natural resources.</div>
+                       <a href="http://stat.luke.fi/en/metsa" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/854678013983707136/Vb6yqkfW_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >St. Louis Fed</h3>
+                    <div class="middle">
+                       <div class="text">Federal Reserve Bank of St. Louis - Central to America's Economy</div>
+                       <a href="https://fred.stlouisfed.org/release?rid=326" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="carousel-item">
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://yt3.ggpht.com/-dAgiHK6t6WU/AAAAAAAAAAI/AAAAAAAAAAA/AoYyqVYusSU/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg" alt="First slide">
+                    <h3 class= "title" >MAFF</h3>
+                    <div class="middle">
+                       <div class="text"></div>
+                       <a href="http://www.maff.go.jp/e/data/stat/index.html
+                       " target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/875425265630969857/6VaeOYz4_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Statistics Canada</h3>
+                    <div class="middle">
+                       <div class="text">Canada's National Statistical Agency. Updates on current social and economic conditions.</div>
+                       <a href="https://www150.statcan.gc.ca/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/378800000829210455/26fc05bc307d15b2d17bb5f4be636f7d_400x400.jpeg" alt="First slide">
+                    <h3 class= "title" >UN Trade Statistics</h3>
+                    <div class="middle">
+                       <div class="text">Trade Statistics Branch of the United Nations.</div>
+                       <a href="https://comtrade.un.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/950682278635757568/sOkgUwQO_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >UN Economic Commission for Europe</h3>
+                    <div class="middle">
+                       <div class="text">UNECE fosters sustainable development by translating the #GlobalGoals into norms and conventions that impact people’s lives every day.</div>
+                       <a href="https://www.unece.org/forests/fpm/onlinedata.html" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/976823060627116033/J1jB3JW3_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >USA Trade Database</h3>
+                    <div class="middle">
+                       <div class="text">The nation’s leading provider of quality data about its people and economy and a merry band of Lovable Nerds. </div>
+                       <a href="https://usatrade.census.gov/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/930471800106045441/0AQZbyz__400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Virginia Tech Housing Reports</h3>
+                    <div class="middle">
+                       <div class="text"></div>
+                       <a href="http://woodproducts.sbio.vt.edu/housing-report/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/459052241903562752/VgRnJ3sa_400x400.jpeg" alt="First slide">
+                    <h3 class= "title" >Dovetail Partners</h3>
+                    <div class="middle">
+                       <div class="text">Non-Profit Organization, A Trusted Source of Environmental Information </div>
+                       <a href="http://www.dovetailinc.org" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/499051884049494017/Aihntg1C_400x400.png" alt="First slide">
+                    <h3 class= "title" >Evergreen Foundation</h3>
+                    <div class="middle">
+                       <div class="text">Our mission is to advance public understanding and support for science-based forestry and science-based forest policy. </div>
+                       <a href="https://www.evergreenmagazine.com" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="carousel-item">
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="http://depts.washington.edu/cintweb/wordpress/wp-content/uploads/2018/07/Forests2Market-e1531324678949.jpg" alt="First slide">
+                    <h3 class= "title" >Forest2Market</h3>
+                    <div class="middle">
+                       <div class="text">Empowering #ForestProducts companies to make better decisions with the use of unique datasets and industry expertise. </div>
+                       <a href="https://www.forest2market.com/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/586145197970456576/Ed330vBt_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Forest Business Network</h3>
+                    <div class="middle">
+                       <div class="text">Forest Business Network is a leading online publisher, consultant, and event manager for the forest products industry</div>
+                       <a href="http://www.forestbusinessnetwork.com/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/479250310347497472/6_AlPYUp_400x400.jpeg" alt="First slide">
+                    <h3 class= "title" >Foreign Agricultural Service</h3>
+                    <div class="middle">
+                       <div class="text">The Foreign Agricultural Service links U.S. agriculture to the world to enhance export opportunities and global food security.</div>
+                       <a href="https://gain.fas.usda.gov/Lists/Advanced%20Search/AllItems.aspx" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/1019248541087043584/lhowDjc-_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >U of Montana BBER</h3>
+                    <div class="middle">
+                       <div class="text">The Bureau of Business and Economic Research at the University of Montana School of Business Administration</div>
+                       <a href="http://www.bber.umt.edu" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+              <div class="row">
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/325952779/3_third_400x400.gif" alt="First slide">
+                    <h3 class= "title" >The Forest Blog</h3>
+                    <div class="middle">
+                       <div class="text">Ann Arbor Culture and Beyond</div>
+                       <a href="http://www.theforestblog.com/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/991830375453286400/eoB_QTai_400x400.jpg" alt="First slide">
+                    <h3 class= "title" >Primary Industries</h3>
+                    <div class="middle">
+                       <div class="text">Ministry for Primary Industries NZ</div>
+                       <a href="http://www.mpi.govt.nz/news-and-resources/open-data-and-forecasting/forestry/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="http://www.oregonloggers.org/Resources/aol.png" alt="First slide">
+                    <h3 class= "title" >Oregon Loggers</h3>
+                    <div class="middle">
+                       <div class="text">Associated Oregon Loggers, Inc. (AOL) is the statewide trade association representing some 1,000 member companies engaged in the harvest and sustainable forest management </div>
+                       <a href="http://www.oregonloggers.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+                 <div class="col-sm-3 logoItem">
+                    <img class="d-block logoImg" src="https://yt3.ggpht.com/-ds7IaiJcq-8/AAAAAAAAAAI/AAAAAAAAAAA/K0TT7Othewg/s288-mo-c-c0xffffffff-rj-k-no/photo.jpg" alt="First slide">
+                    <h3 class= "title" >Naturally Wood</h3>
+                    <div class="middle">
+                       <div class="text"></div>
+                       <a href="http://www.naturallywood.com/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="carousel-item">
+            <div class="row">
+               <div class="col-sm-3 logoItem">
+                  <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/651298928613191680/4uaRXEUd_400x400.jpg" alt="First slide">
+                  <h3 class= "title" >Forest Finland</h3>
+                  <div class="middle">
+                     <div class="text">News from Finnish forests and forest sector, published by the #FinnishForestAssociation. OnlineMagazine, Finland. </div>
+                     <a href="https://www.smy.fi/en/forest-fi/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                  </div>
+               </div>
+               <div class="col-sm-3 logoItem">
+                <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/958449913238401024/EuaF0YN3_400x400.jpg" alt="First slide">
+                <h3 class= "title" >The Property and Environment Research Center</h3>
+                <div class="middle">
+                   <div class="text">The Property and Environment Research Center (PERC) is a nonprofit institute dedicated to improving environmental quality through property rights and markets.</div>
+                   <a href="https://www.perc.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                </div>
+             </div>
+             <div class="col-sm-3 logoItem">
+              <img class="d-block logoImg" src="https://media.licdn.com/dms/image/C4E0BAQHHhSvgColHmA/company-logo_200_200/0?e=2130710400&v=beta&t=s4OkH7Xbj_mPJ408VjSGKzbFvtbhL6b88wzl71Y4I7g" alt="First slide">
+              <h3 class= "title" >Quebec Wood Export Bureau</h3>
+              <div class="middle">
+                 <div class="text">The Quebec Wood Export Bureau (QWEB) is a non-profit organization, founded in 1996, and whose mission is to develop overseas markets for wood products from Québec, maintain market access for these products and promote the use of wood in all markets, be it regional, provincial or national.</div>
+                 <a href="https://quebecwoodexport.com/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+              </div>
+           </div>
+           <div class="col-sm-3 logoItem">
+            <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/966940514577612800/JI190P7Y_400x400.jpg" alt="First slide">
+            <h3 class= "title" >European Forest Insitute</h3>
+            <div class="middle">
+               <div class="text">The European Forest Institute (EFI) is an international organization which conducts research and provides policy support on forest-related issues.</div>
+               <a href="https://www.efi.int/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+            </div>
+         </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3 logoItem">
+                <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/991830375453286400/eoB_QTai_400x400.jpg" alt="First slide">
+                <h3 class= "title" >Primary Industries</h3>
+                <div class="middle">
+                   <div class="text">Ministry for Primary Industries NZ</div>
+                   <a href="http://www.mpi.govt.nz/news-and-resources/open-data-and-forecasting/forestry/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+                </div>
+             </div>
+              <div class="col-sm-3 logoItem">
+               <img class="d-block logoImg" src="http://depts.washington.edu/cintweb/wordpress/wp-content/uploads/2018/07/EPF.jpg" alt="First slide">
+               <h3 class= "title" >European Panel Federation</h3>
+               <div class="middle">
+                  <div class="text">EPF has members in 25 countries. The EU wood panel industry has a turnover of about 22 billion euro every year, creates over 100,000 jobs directly and counts more than 5,000 enterprises in Europe.</div>
+                  <a href="http://europanels.org/" target="_blank"><button class="defaultBtn">Learn More</button></a>
+               </div>
+            </div>
+            <div class="col-sm-3 logoItem">
+             <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/976823060627116033/J1jB3JW3_400x400.jpg" alt="First slide">
+             <h3 class= "title" >USA Trade Links</h3>
+             <div class="middle">
+                <div class="text">FOREIGN TRADE is the official source for U.S. export and import statistics and responsible for issuing regulations governing the reporting of all export shipments from the United States.</div>
+                <a href="https://www.census.gov/foreign-trade/index.html" target="_blank"><button class="defaultBtn">Learn More</button></a>
+             </div>
+          </div>
+          <div class="col-sm-3 logoItem">
+           <img class="d-block logoImg" src="https://pbs.twimg.com/profile_images/879680555910144000/R_oPMKe3_400x400.jpg" alt="First slide">
+           <h3 class= "title" >FAO Statistics</h3>
+           <div class="middle">
+              <div class="text">Food and Agriculture Organization of the United Nations (#UNFAO). Food and agriculture statistics | Social and economic development. </div>
+              <a href="http://www.fao.org/faostat/en/#data" target="_blank"><button class="defaultBtn">Learn More</button></a>
+           </div>
+        </div>
+           </div>
+                    </div>
+        </div>
+        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+           </a>
+           <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="sr-only">Next</span>
+           </a> -->
+     </div>
+  </div>
+</div>
